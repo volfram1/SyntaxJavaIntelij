@@ -1,0 +1,31 @@
+
+****************** Access modifiers ****************
+
+Access modifiers are keywords in java that define from where a certain variable, method or class etc. can be accessed.
+
+There are 4 type of access that we can define using three keywords:
+1) private --> when we use a private keyword with any of the variables,
+               method or classes these can only be accessed within that class
+2) default --> not a keyword (applied when no keyword is used) cannot be accessed in different package
+3) protected --> we use the protected class, when applied the class members(variables, methods etc.)can be accessed
+               from other packages but only in the classes that participate in inheritance
+4) public --> class members and classes can be accessed from anywhere inside that project
+
+if the variable is private it cannot be accessed directly but can be accessed
+    if the method that uses that variable is called unless that method is also private
+
+static methods can access other static methods and filed without needing an object of that class name if
+    they are inside the same class
+
+____________________________________________________
+VISIBILITY                              | PUBLIC | PRIVATE | PROTECTED| DEFAULT |
+----------------------------------------|--------|---------|----------|---------|
+within the                              |  yes   |  yes    | yes      |   yes   |
+same class                              |        |         |          |         |
+----------------------------------------|--------|---------|----------|---------|
+from any class in the same package      |
+----------------------------------------|--------|---------|----------|---------|
+from any class from different package   |
+----------------------------------------|--------|---------|----------|---------|
+from any class in different package     |
+--------------------------------------------------------------------------------|
