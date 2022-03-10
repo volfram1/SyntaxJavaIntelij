@@ -23,9 +23,16 @@ VISIBILITY                              | PUBLIC | PRIVATE | PROTECTED| DEFAULT 
 within the                              |  yes   |  yes    | yes      |   yes   |
 same class                              |        |         |          |         |
 ----------------------------------------|--------|---------|----------|---------|
-from any class in the same package      |
+from any class in the same package      |  yes   |   no    |   yes    |   yes   |
 ----------------------------------------|--------|---------|----------|---------|
-from any class from different package   |
+from any class from different package   |   yes  |   no    |yes(by inh)   no    |
 ----------------------------------------|--------|---------|----------|---------|
-from any class in different package     |
+from any class in different package     |   yes  |   no    |   no     |    no   |
 --------------------------------------------------------------------------------|
+
+Rules:
+1) we should always prefer private access modifier for the fields.
+Because fields contain the data and the methods of your class might use that data to perform some tasks
+if we do not perform sanity checks before setting the values to these fields. Our classes and methods might misbehave
+also the access of the data should be restricted so that not every one can access the data.
+2) we can't use access modifiers with local variables.

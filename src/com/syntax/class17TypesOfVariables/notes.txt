@@ -1,6 +1,6 @@
 ************** Types of VARIABLES ******************
 -local - inside method, loop, if etc.
--instance - outside the method or any other block of code but inside of class
+-instance - outside the method or any other block of code but inside of class. Are called fields.
 -static - same as instance variable, and it has static keyword with it
 
 ************** example *************

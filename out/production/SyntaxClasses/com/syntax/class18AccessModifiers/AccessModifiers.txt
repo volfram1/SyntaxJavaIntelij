@@ -16,3 +16,16 @@ if the variable is private it cannot be accessed directly but can be accessed
 
 static methods can access other static methods and filed without needing an object of that class name if
     they are inside the same class
+
+____________________________________________________
+VISIBILITY                              | PUBLIC | PRIVATE | PROTECTED| DEFAULT |
+----------------------------------------|--------|---------|----------|---------|
+within the                              |  yes   |  yes    | yes      |   yes   |
+same class                              |        |         |          |         |
+----------------------------------------|--------|---------|----------|---------|
+from any class in the same package      |  yes   |   no    |   yes    |   yes   |
+----------------------------------------|--------|---------|----------|---------|
+from any class from different package   |   yes  |   no    |yes(by inh)   no    |
+----------------------------------------|--------|---------|----------|---------|
+from any class in different package     |   yes  |   no    |   no     |    no   |
+--------------------------------------------------------------------------------|
