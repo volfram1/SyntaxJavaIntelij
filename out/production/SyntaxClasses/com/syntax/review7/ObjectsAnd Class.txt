@@ -1,0 +1,8 @@
+
+public class ObjectAndClassPractice {
+
+    void employeeDetails(){      // declaring a method void (no return type)
+        String empName="Tarik";
+        int empID=12345;
+
+    }
