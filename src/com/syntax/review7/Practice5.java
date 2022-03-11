@@ -4,10 +4,10 @@ import java.util.Locale;
 
 public class Practice5 {
 
-    String weekDay(String day){
-        day =day.toLowerCase(Locale.ROOT);
-        switch(day){
-            case"monday":
+    String weekDay(String day) {
+        day = day.toLowerCase(Locale.ROOT);
+        switch (day) {
+            case "monday":
                 return "Lazy day";
             case "tuesday":
                 return "productive day";
@@ -24,7 +24,7 @@ public class Practice5 {
     }
 
     public static void main(String[] args) {
-        Practice5 p=new Practice5();
+        Practice5 p = new Practice5();
         p.weekDay("Tuesday");
     }
 }
