@@ -1,4 +1,4 @@
-package com.syntax.class20;
+package com.syntax.class20ConstructorsCd;
 
 public class Task3ConstructorsTester {
     public static void main(String[] args) {

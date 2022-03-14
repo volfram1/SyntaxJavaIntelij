@@ -1,6 +1,6 @@
 package com.syntax.class19Constructors;
 
-import com.syntax.class20.Task3Constructors;
+import com.syntax.class20ConstructorsCd.Task3Constructors;
 
 public class Task3FromPackage20 {
     public static void main(String[] args) {

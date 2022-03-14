@@ -1,4 +1,4 @@
-package com.syntax.class22;
+package com.syntax.class22SuperKeyword;
 
 public class SuperKeywordDemo {
     public static void main(String[] args) {
