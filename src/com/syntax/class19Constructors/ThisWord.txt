@@ -1,0 +1,12 @@
+
+--------------------- "THIS" keyword -------------------------
+
+it is a reserved keyword in java that we use to refer to instance variables methods or constructors of a class
+
+1) this keyword is used to distinguish instance variables with local variables
+2) we can use "this" keyword to call the constructor of a class inside another constructor
+3) we can use the "this" keyword to call the methods of a class
+
+Rules:
+1) this() should be the first line inside the constructor
+2) this() can't be used inside methods

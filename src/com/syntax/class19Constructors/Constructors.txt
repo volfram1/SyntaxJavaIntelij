@@ -1,0 +1,20 @@
+
+**************************** CONSTRUCTORS ************************
+
+Constructor allows us to set the values of the fields of a class.
+Constructors in java are special blocks of code similar to methods that initialize objects of a class.
+
+
+Purpose of the constructor is to gve initial values to the fields of the class.
+Good practice is to make the fields(instance variables) private.
+
+Rules:
+1) don't have a return type not even void
+2) name of the constructor must be the same as name of the class
+3) Constructors can't have non access modifiers like static, final etc.
+4) we can use the access modifiers like public private protected with constructors
+5) if we don't write a constructor in a class a default constructor is provided by compiler
+6) we can have multiple constructors in a class but their number of arguments sequence of argument or
+type of arguments should be different
+7) if we have multiple constructors then java decide which constructor to call based on the parameters we pass
+

@@ -7,13 +7,19 @@ public class Frog {
     double weight;
 
     public Frog(String name, String color, int age, double weight) {
-        this.name = name;
-        this.color = color;
-        this.age = age;
+        this(name,color,age);  //should be the first call to the constructor
         this.weight = weight;
     }
 
-   void printInfo(){
+    public Frog(String name, String color, int age) {
+
+        this.name = name;
+        this.color = color;
+        this.age = age;
+
+    }
+
+    void printInfo(){
        System.out.println(name+" "+color+" "+age+" "+weight);
    }
 

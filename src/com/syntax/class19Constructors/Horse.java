@@ -1,4 +1,4 @@
-package com.syntax.class19;
+package com.syntax.class19Constructors;
 
 public class Horse {
     private String name;
