@@ -1,0 +1,7 @@
+
+------------------ SUPER keyword ----------------
+is like "this" keyword, but it refers to the parent class object.
+
+We can use the super keyword in 3 different ways.
+    1) to access the super class variables if we have same named variables in super class
+    2)
