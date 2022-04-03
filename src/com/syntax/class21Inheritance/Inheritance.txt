@@ -1,8 +1,8 @@
 
 Inheritance - is a mechanism in Java through which a child class gets the properties methods from a parent class.
 
-child class - subclass
-parent class - superclass
+child class - subclass - derived
+parent class - superclass - baseclass
 
 Benefits:
     1) Saves time to code

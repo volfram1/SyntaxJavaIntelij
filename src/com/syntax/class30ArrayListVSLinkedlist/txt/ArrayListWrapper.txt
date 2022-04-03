@@ -1,0 +1,36 @@
+
+
+********************** Wrapper classes ******************
+
+Object types for all primitive types. When we use the wrapper classes we get all the benefits
+of classes and objects for example we can have built-in methods. Generics work with classes only
+
+Boxing in wrapper class -- converting primitive to corresponding wrapper type
+    int num=10;
+    Integer num2=new Integer(num);
+
+Unboxing -- converting wrapper object to corresponding primitive type
+    Integer num2=new Integer(10);
+    int num=num2.intValue();
+
+Autoboxing
+    Integer num=10;
+
+AutoUnboxing
+    int num2=num;
+
+List (it is an interface in collection frame which is implemented by two classes ArrayList and LinkedList)
+    1) we can store the duplicate values in lists
+    2) insertion order is maintained
+
+When to use ArrayList?
+    If most of the operations are reading and storing new date but nor shifting or changing the position of data
+    then we should use ArrayList.
+
+When to use LinkedList?
+    When most of the operations are related to changing the position of data or related to data shifting
+    then we should go with LinkedList
+
+
+
+

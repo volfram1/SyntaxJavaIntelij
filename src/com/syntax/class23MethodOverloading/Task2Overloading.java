@@ -1,4 +1,4 @@
-package com.syntax.class23;
+package com.syntax.class23MethodOverloading;
 
     /*
     Create 1 class with a private method that has 3 overloaded forms.
