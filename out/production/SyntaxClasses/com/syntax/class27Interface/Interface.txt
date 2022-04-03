@@ -1,0 +1,12 @@
+
+*********************** INTERFACE ********************
+
+Interfaces are also used to achieve abstraction in Java we can create an interface with the keyword interface
+the fields are always public static and final
+no need to write "abstract" keyword
+methods are public and abstract by default
+
+
+interface Human{
+public static final int legs=2;
+}
